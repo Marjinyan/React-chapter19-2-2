@@ -1,0 +1,27 @@
+.block {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    background: gray;
+}
+
+.block label {
+    border-radius: 0px 14px;
+    background: #cddc39;
+    padding: 7.5px;
+    border: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-right: 1px;
+}
+
+.block input {
+    padding: 9px 8px;
+    border: none;
+    border-radius: 15px 0px;
+    outline: none
+}
+
+.block input:focus {
+    border: 4px solid bisque;
+}
